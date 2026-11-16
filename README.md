@@ -45,7 +45,7 @@ When a download fails, the app writes what to do right under it. Common fixes:
 
 ## About
 
-Made by **Tanvir**, a freelance video editor and motion designer from Bangladesh. I built it to make my own editing work easier and share it free with other editors. Follow me on Instagram: [@tanvir_frames.bd](https://www.instagram.com/tanvir_frames.bd/)
+Made by **Tanvir**, a freelance video editor and motion designer from Bangladesh. I built it to make my own editing work easier and share it free with other editors. Follow me on Instagram: [@tanv_fx](https://www.instagram.com/tanv_fx/)
 
 ## Please use it fairly
 
@@ -55,7 +55,7 @@ Save videos, photos and music you made, own, or have permission to use. Re-uploa
 
 ## বাংলা
 
-একটা ফ্রি অ্যাপ, Mac আর Windows-এর জন্য। YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়। ভিডিও এডিটরদের জন্য বানিয়েছে Tanvir, নিজেও একজন ভিডিও এডিটর। Instagram: [@tanvir_frames.bd](https://www.instagram.com/tanvir_frames.bd/)
+একটা ফ্রি অ্যাপ, Mac আর Windows-এর জন্য। YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়। ভিডিও এডিটরদের জন্য বানিয়েছে Tanvir, নিজেও একজন ভিডিও এডিটর। Instagram: [@tanv_fx](https://www.instagram.com/tanv_fx/)
 
 **ডাউনলোড:** উপরের **Download for Mac** বা **Download for Windows** লিংকে চাপো।
 
