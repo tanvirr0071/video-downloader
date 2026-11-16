@@ -1,0 +1,44 @@
+name: Build and release
+
+# Push a tag like v1.3 and this builds both downloads and publishes them as a GitHub Release.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag, for example v1.3"
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  UV_VERSION: "0.13.8"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch uv for Mac (Apple Silicon and Intel) and Windows
+        run: |
+          mkdir -p wheels
+          pip download "uv==${UV_VERSION}" --no-deps --only-binary=:all: --platform macosx_11_0_arm64 -d wheels
+          pip download "uv==${UV_VERSION}" --no-deps --only-binary=:all: --platform macosx_10_12_x86_64 -d wheels
+          pip download "uv==${UV_VERSION}" --no-deps --only-binary=:all: --platform win_amd64 -d wheels
+          ls -la wheels
+
+      - name: Assemble the Mac app and the Windows folder
+        run: python3 packaging/build.py wheels dist
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.inputs.tag || github.ref_name }}
+        run: |
+          gh release create "$TAG" dist/*.zip \
+            --title "Video Downloader ${TAG#v}" \
+            --notes-file .github/release-notes.md \
+            --latest
