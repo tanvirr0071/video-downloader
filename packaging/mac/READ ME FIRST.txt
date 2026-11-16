@@ -1,0 +1,202 @@
+VIDEO DOWNLOADER by Tanvir  (Mac)
+=================================
+
+A free app that saves videos, photos and music from YouTube, Instagram,
+Pinterest, Facebook, TikTok, X, SoundCloud and about 1,000 other sites.
+
+বাংলা নির্দেশনা নিচে আছে।
+
+
+WHAT YOU NEED
+-------------
+- A Mac with macOS 11 (Big Sur) or newer. Apple Silicon or Intel.
+- Internet on the first launch. The app sets itself up once (about a minute).
+
+
+INSTALL (only once)
+-------------------
+1. Double-click the zip file to unzip it.
+2. Drag "Video Downloader" into your Applications folder.
+   Open it from Applications, not from Downloads.
+3. Double-click Video Downloader. macOS says it can't check the app,
+   because it is not from the App Store. Click Done.
+4. Open System Settings > Privacy & Security. Scroll down to
+   "Video Downloader was blocked" and click Open Anyway, then Open.
+   Type your Mac password if it asks.
+5. Wait about a minute. A notification says it is setting up,
+   then the window opens by itself.
+
+From now on, open it like any other app: Launchpad, Spotlight or the Dock.
+
+
+HOW TO USE
+----------
+1. Copy a link from YouTube, Instagram, Pinterest or any other site.
+2. Paste it into the app (Cmd+V, or press "Paste from clipboard").
+   You can paste several links, one per line.
+3. Choose how to save it:
+     Editing MP4   H.264 video that opens in Premiere Pro, After Effects, CapCut
+     Max quality   the sharpest version, up to 4K or 8K
+     Audio         FLAC, MP3 320 kbps, or Original M4A (the site's own audio, untouched)
+   Photo links are recognised by themselves and saved as the original images.
+4. Press Download. When it finishes, press "Show in Finder".
+
+Your files go to:  Movies > Video Downloader  (one folder for each site)
+Press "Help" at the top of the app for quick tips.
+
+
+PRIVATE POSTS, INSTAGRAM AND AGE-RESTRICTED VIDEOS
+--------------------------------------------------
+1. Log in to the site in your browser (Chrome, Safari, Firefox, Edge or Brave).
+2. In the app, open the "No browser login" menu and pick that browser.
+3. The first time, your Mac asks to use "Chrome Safe Storage" from your
+   Keychain. The request may say "python": that is this app.
+   Click Always Allow.
+Safari logins also need: System Settings > Privacy & Security >
+Full Disk Access > turn on Video Downloader. Chrome is easier.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+When a download fails, the app writes what to do right under it.
+For anything else:
+
+"Video Downloader is damaged and can't be opened"
+   Open Terminal (Spotlight > Terminal), paste this line and press Return:
+       xattr -cr "/Applications/Video Downloader.app"
+   Then open the app again.
+
+"Move Video Downloader to Applications first"
+   Drag the app into the Applications folder and open it from there.
+
+The first launch never finishes, or says it could not finish setting up
+   Check your internet and open the app again. If it still fails:
+   Finder > Go > Go to Folder, type
+       ~/Library/Application Support/Video Downloader
+   delete that folder, then open the app to set up from scratch.
+
+"The site refused the download" (YouTube 403) or "limiting downloads"
+   Wait a few minutes and try again. The app updates its download engine
+   every day, which fixes most of these. Choosing a browser login also helps.
+
+Instagram says login required
+   Use "Use my Chrome login" (see above).
+
+The window is blank, or nothing happens when you press Download
+   Quit the app (Cmd+Q) and open it again.
+
+Need help from Tanvir? Send him this file:
+   ~/Library/Logs/Video Downloader.log
+
+
+UNINSTALL
+---------
+Drag Video Downloader from Applications to the Trash, then delete
+~/Library/Application Support/Video Downloader  (Finder > Go > Go to Folder).
+
+
+PLEASE USE IT FAIRLY
+--------------------
+Save videos, photos and music you made, own, or have permission to use.
+Re-uploading other people's work can get your account a copyright strike.
+DRM-protected services (Netflix, Spotify, Apple Music) can't be downloaded.
+
+
+CREDITS
+-------
+Made by Tanvir. Built on free, open-source tools: yt-dlp (Unlicense),
+gallery-dl (GPL-2.0), FFmpeg (LGPL/GPL), uv by Astral (MIT / Apache-2.0),
+Deno (MIT) and pywebview (BSD-3-Clause). uv is included in the app; the
+others are downloaded from their official sources on the first launch.
+
+
+
+============================================================
+বাংলা নির্দেশনা  (Mac)
+============================================================
+
+একটা ফ্রি অ্যাপ। YouTube, Instagram, Pinterest, Facebook, TikTok, X,
+SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়।
+
+যা লাগবে
+- macOS 11 (Big Sur) বা নতুন যেকোনো Mac। Apple Silicon বা Intel।
+- প্রথমবার খোলার সময় ইন্টারনেট। অ্যাপ নিজে একবার সেটআপ হয় (প্রায় ১ মিনিট)।
+
+ইনস্টল (একবারই)
+১. zip ফাইলে ডাবল-ক্লিক করে খোলো।
+২. "Video Downloader" টেনে Applications ফোল্ডারে রাখো।
+   Downloads থেকে না, Applications থেকে খুলবে।
+৩. Video Downloader-এ ডাবল-ক্লিক করো। macOS বলবে অ্যাপটা যাচাই করতে
+   পারছে না, কারণ এটা App Store-এর না। Done চাপো।
+৪. System Settings > Privacy & Security খোলো। নিচে স্ক্রল করে
+   "Video Downloader was blocked" এর পাশে Open Anyway, তারপর Open চাপো।
+   পাসওয়ার্ড চাইলে Mac-এর পাসওয়ার্ড দাও।
+৫. প্রায় ১ মিনিট অপেক্ষা করো। সেটআপ শেষে উইন্ডো নিজেই খুলবে।
+
+এরপর থেকে অন্য অ্যাপের মতোই Launchpad, Spotlight বা Dock থেকে খুলবে।
+
+ব্যবহার
+১. যেকোনো সাইট থেকে লিংক কপি করো।
+২. অ্যাপে পেস্ট করো (Cmd+V বা "Paste from clipboard")।
+   একসাথে অনেকগুলো লিংক দেওয়া যায়, প্রতি লাইনে একটা।
+৩. কীভাবে সেভ করবে বেছে নাও:
+     Editing MP4   Premiere Pro, After Effects, CapCut-এ সরাসরি খোলে
+     Max quality   সবচেয়ে ভালো কোয়ালিটি, 4K বা 8K পর্যন্ত
+     Audio         FLAC, MP3 320, অথবা Original M4A (সাইটের নিজের অডিও, হুবহু)
+   ছবির লিংক অ্যাপ নিজেই চিনে আসল ছবি হিসেবে নামায়।
+৪. Download চাপো। শেষ হলে "Show in Finder" চাপো।
+
+ফাইল যায়:  Movies > Video Downloader  (প্রতি সাইটের আলাদা ফোল্ডার)
+অ্যাপের উপরে "Help" চাপলে ছোট টিপস পাবে।
+
+প্রাইভেট পোস্ট, Instagram, বয়স-সীমিত ভিডিও
+১. ব্রাউজারে (Chrome, Safari, Firefox, Edge বা Brave) সাইটে লগইন করো।
+২. অ্যাপে "No browser login" মেনু থেকে সেই ব্রাউজার বেছে নাও।
+৩. প্রথমবার Mac Keychain থেকে "Chrome Safe Storage" ব্যবহারের অনুমতি
+   চাইবে, সেখানে "python" লেখা থাকতে পারে। ওটা এই অ্যাপই।
+   Always Allow চাপো।
+Safari-র লগইনের জন্য আলাদা অনুমতি লাগে: System Settings >
+Privacy & Security > Full Disk Access > Video Downloader চালু করো।
+Chrome ব্যবহার করা সহজ।
+
+সমস্যা হলে
+ডাউনলোড ব্যর্থ হলে অ্যাপ ঠিক তার নিচেই লিখে দেয় কী করতে হবে।
+অন্য সমস্যার জন্য:
+
+"Video Downloader is damaged and can't be opened"
+   Terminal খোলো (Spotlight > Terminal), এই লাইনটা পেস্ট করে Return চাপো:
+       xattr -cr "/Applications/Video Downloader.app"
+   তারপর আবার অ্যাপ খোলো।
+
+"Move Video Downloader to Applications first"
+   অ্যাপটা Applications ফোল্ডারে টেনে নিয়ে সেখান থেকে খোলো।
+
+প্রথমবারের সেটআপ শেষ হয় না, বা সেটআপ ব্যর্থ হয়েছে বলে
+   ইন্টারনেট চেক করে আবার খোলো। তাও না হলে:
+   Finder > Go > Go to Folder-এ লেখো
+       ~/Library/Application Support/Video Downloader
+   ফোল্ডারটা মুছে আবার অ্যাপ খোলো, নতুন করে সেটআপ হবে।
+
+"The site refused the download" (YouTube 403) বা "limiting downloads"
+   কয়েক মিনিট পর আবার চেষ্টা করো। অ্যাপ প্রতিদিন নিজের ইঞ্জিন আপডেট করে,
+   এতে বেশিরভাগ সমস্যা ঠিক হয়ে যায়। browser login বেছে নিলেও কাজ হয়।
+
+Instagram লগইন চাইলে
+   "Use my Chrome login" বেছে নাও (উপরে দেখো)।
+
+উইন্ডো ফাঁকা, বা Download চাপলে কিছু হয় না
+   Cmd+Q দিয়ে বন্ধ করে আবার খোলো।
+
+Tanvir-এর সাহায্য লাগলে এই ফাইলটা পাঠাও:
+   ~/Library/Logs/Video Downloader.log
+
+আনইনস্টল
+Applications থেকে Video Downloader ট্র্যাশে ফেলো, তারপর
+~/Library/Application Support/Video Downloader ফোল্ডারটা মুছে দাও।
+
+ন্যায্যভাবে ব্যবহার করো
+নিজের বানানো, নিজের মালিকানার, বা অনুমতি আছে এমন কনটেন্ট নামাও।
+অন্যের কাজ নিজের নামে আবার আপলোড করলে কপিরাইট স্ট্রাইক আসতে পারে।
+Netflix, Spotify, Apple Music-এর মতো DRM-সুরক্ষিত কনটেন্ট নামানো যায় না।
+
+বানিয়েছে Tanvir।

@@ -1,0 +1,194 @@
+VIDEO DOWNLOADER by Tanvir  (Windows)
+=====================================
+
+A free app that saves videos, photos and music from YouTube, Instagram,
+Pinterest, Facebook, TikTok, X, SoundCloud and about 1,000 other sites.
+
+বাংলা নির্দেশনা নিচে আছে।
+
+
+WHAT YOU NEED
+-------------
+- Windows 10 or 11, 64-bit.
+- Internet on the first launch. The app sets itself up once (1 to 2 minutes).
+
+
+INSTALL (only once)
+-------------------
+1. Right-click the zip file > Extract All > Extract.
+   Don't run anything from inside the zip.
+2. Move the "Video Downloader" folder wherever you like, for example
+   Documents. Keep everything inside it together.
+3. Double-click "Start Video Downloader".
+   If Windows shows "Windows protected your PC", click More info,
+   then Run anyway. This happens because the app is new, not because
+   anything is wrong.
+4. The first time, a black window sets things up for 1 to 2 minutes.
+   Then the app opens in your web browser.
+
+Keep the black window open while you use the app. Close it to quit.
+
+Shortcut on the Desktop: right-click "Start Video Downloader" >
+Show more options > Send to > Desktop (create shortcut).
+
+
+HOW TO USE
+----------
+1. Copy a link from YouTube, Instagram, Pinterest or any other site.
+2. Paste it into the app (Ctrl+V, or press "Paste from clipboard").
+   You can paste several links, one per line.
+3. Choose how to save it:
+     Editing MP4   H.264 video that opens in Premiere Pro, After Effects, CapCut
+     Max quality   the sharpest version, up to 4K or 8K
+     Audio         FLAC, MP3 320 kbps, or Original M4A (the site's own audio, untouched)
+   Photo links are recognised by themselves and saved as the original images.
+4. Press Download. When it finishes, press "Show file".
+
+Your files go to:  Downloads\Video Downloader  (one folder for each site)
+Press "Help" at the top of the app for quick tips.
+
+
+PRIVATE POSTS, INSTAGRAM AND AGE-RESTRICTED VIDEOS
+--------------------------------------------------
+Use Firefox for this. Windows does not let other apps read Chrome or Edge
+logins.
+1. Log in to the site in Firefox.
+2. In the app, open the "No browser login" menu and pick
+   "Use my Firefox login".
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+When a download fails, the app writes what to do right under it.
+For anything else:
+
+Your antivirus removed or blocked "uv.exe"
+   Restore it or allow it. It is uv, the official open-source Python tool
+   from Astral, which the app uses to set itself up.
+
+"Setup did not finish"
+   Check your internet and run "Start Video Downloader" again. If it still
+   fails, paste this into the File Explorer address bar and press Enter:
+       %LOCALAPPDATA%\Video Downloader
+   delete everything in that folder, then run the app again.
+
+The browser didn't open
+   Open your browser yourself and go to:  http://127.0.0.1:8765
+
+Nothing happens when you double-click
+   Make sure you extracted the zip first (step 1).
+
+"The site refused the download" (YouTube 403) or "limiting downloads"
+   Wait a few minutes and try again. The app updates its download engine
+   every day, which fixes most of these. A Firefox login also helps.
+
+The page says it can't reach the app
+   The black window was closed. Run "Start Video Downloader" again.
+
+
+UNINSTALL
+---------
+Delete the "Video Downloader" folder, then delete
+%LOCALAPPDATA%\Video Downloader  (paste it into the File Explorer address bar).
+
+
+PLEASE USE IT FAIRLY
+--------------------
+Save videos, photos and music you made, own, or have permission to use.
+Re-uploading other people's work can get your account a copyright strike.
+DRM-protected services (Netflix, Spotify, Apple Music) can't be downloaded.
+
+
+CREDITS
+-------
+Made by Tanvir. Built on free, open-source tools: yt-dlp (Unlicense),
+gallery-dl (GPL-2.0), FFmpeg (LGPL/GPL), uv by Astral (MIT / Apache-2.0)
+and Deno (MIT). uv is included in this folder; the others are downloaded
+from their official sources on the first launch.
+
+
+
+============================================================
+বাংলা নির্দেশনা  (Windows)
+============================================================
+
+একটা ফ্রি অ্যাপ। YouTube, Instagram, Pinterest, Facebook, TikTok, X,
+SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়।
+
+যা লাগবে
+- Windows 10 বা 11, 64-bit।
+- প্রথমবার খোলার সময় ইন্টারনেট। অ্যাপ নিজে একবার সেটআপ হয় (১-২ মিনিট)।
+
+ইনস্টল (একবারই)
+১. zip ফাইলে রাইট-ক্লিক > Extract All > Extract।
+   zip-এর ভেতর থেকে সরাসরি কিছু চালাবে না।
+২. "Video Downloader" ফোল্ডারটা পছন্দমতো জায়গায় রাখো, যেমন Documents।
+   ভেতরের সব ফাইল একসাথে রাখবে।
+৩. "Start Video Downloader"-এ ডাবল-ক্লিক করো।
+   "Windows protected your PC" দেখালে More info, তারপর Run anyway চাপো।
+   অ্যাপটা নতুন বলে এটা দেখায়, কোনো সমস্যা নেই।
+৪. প্রথমবার একটা কালো উইন্ডো ১-২ মিনিট সেটআপ করবে।
+   তারপর অ্যাপটা তোমার ব্রাউজারে খুলবে।
+
+অ্যাপ ব্যবহারের সময় কালো উইন্ডোটা খোলা রাখো। বন্ধ করলে অ্যাপও বন্ধ হবে।
+
+ডেস্কটপে শর্টকাট: "Start Video Downloader"-এ রাইট-ক্লিক >
+Show more options > Send to > Desktop (create shortcut)।
+
+ব্যবহার
+১. যেকোনো সাইট থেকে লিংক কপি করো।
+২. অ্যাপে পেস্ট করো (Ctrl+V বা "Paste from clipboard")।
+   একসাথে অনেকগুলো লিংক দেওয়া যায়, প্রতি লাইনে একটা।
+৩. কীভাবে সেভ করবে বেছে নাও:
+     Editing MP4   Premiere Pro, After Effects, CapCut-এ সরাসরি খোলে
+     Max quality   সবচেয়ে ভালো কোয়ালিটি, 4K বা 8K পর্যন্ত
+     Audio         FLAC, MP3 320, অথবা Original M4A (সাইটের নিজের অডিও, হুবহু)
+   ছবির লিংক অ্যাপ নিজেই চিনে আসল ছবি হিসেবে নামায়।
+৪. Download চাপো। শেষ হলে "Show file" চাপো।
+
+ফাইল যায়:  Downloads\Video Downloader  (প্রতি সাইটের আলাদা ফোল্ডার)
+অ্যাপের উপরে "Help" চাপলে ছোট টিপস পাবে।
+
+প্রাইভেট পোস্ট, Instagram, বয়স-সীমিত ভিডিও
+এর জন্য Firefox ব্যবহার করো। Windows অন্য অ্যাপকে Chrome বা Edge-এর
+লগইন পড়তে দেয় না।
+১. Firefox-এ সাইটে লগইন করো।
+২. অ্যাপে "No browser login" মেনু থেকে "Use my Firefox login" বেছে নাও।
+
+সমস্যা হলে
+ডাউনলোড ব্যর্থ হলে অ্যাপ ঠিক তার নিচেই লিখে দেয় কী করতে হবে।
+অন্য সমস্যার জন্য:
+
+অ্যান্টিভাইরাস "uv.exe" মুছে দিয়েছে বা আটকে দিয়েছে
+   ফাইলটা restore বা allow করো। এটা Astral-এর অফিসিয়াল ওপেন-সোর্স
+   Python টুল uv, যেটা দিয়ে অ্যাপ নিজেকে সেটআপ করে।
+
+"Setup did not finish"
+   ইন্টারনেট চেক করে আবার "Start Video Downloader" চালাও। তাও না হলে
+   File Explorer-এর address bar-এ এটা পেস্ট করে Enter চাপো:
+       %LOCALAPPDATA%\Video Downloader
+   ভেতরের সব কিছু মুছে আবার অ্যাপ চালাও।
+
+ব্রাউজার খোলেনি
+   নিজে ব্রাউজার খুলে যাও:  http://127.0.0.1:8765
+
+ডাবল-ক্লিক করলে কিছুই হয় না
+   আগে zip extract করেছ কিনা দেখো (ধাপ ১)।
+
+"The site refused the download" (YouTube 403) বা "limiting downloads"
+   কয়েক মিনিট পর আবার চেষ্টা করো। অ্যাপ প্রতিদিন নিজের ইঞ্জিন আপডেট করে,
+   এতে বেশিরভাগ সমস্যা ঠিক হয়ে যায়। Firefox login বেছে নিলেও কাজ হয়।
+
+পেজে লেখা আসে অ্যাপের সাথে যোগাযোগ হচ্ছে না
+   কালো উইন্ডোটা বন্ধ হয়ে গেছে। আবার "Start Video Downloader" চালাও।
+
+আনইনস্টল
+"Video Downloader" ফোল্ডারটা মুছে দাও, তারপর
+%LOCALAPPDATA%\Video Downloader ফোল্ডারটাও মুছে দাও।
+
+ন্যায্যভাবে ব্যবহার করো
+নিজের বানানো, নিজের মালিকানার, বা অনুমতি আছে এমন কনটেন্ট নামাও।
+অন্যের কাজ নিজের নামে আবার আপলোড করলে কপিরাইট স্ট্রাইক আসতে পারে।
+Netflix, Spotify, Apple Music-এর মতো DRM-সুরক্ষিত কনটেন্ট নামানো যায় না।
+
+বানিয়েছে Tanvir।
