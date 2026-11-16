@@ -2,7 +2,7 @@
 
 <h1 align="center">Video Downloader</h1>
 
-<p align="center">A free app for Mac and Windows that saves videos, photos and music from YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud and about 1,000 other sites. Made by Tanvir for video editors.</p>
+<p align="center">A free app for video editors, on Mac and Windows. Save reference clips, B-roll, music and photos from YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud and about 1,000 other sites, as files Premiere Pro, After Effects and CapCut open without converting.</p>
 
 <p align="center">
   <a href="https://github.com/tanvirr0071/video-downloader/releases/latest/download/Video-Downloader-by-Tanvir-Mac.zip"><b>Download for Mac</b></a> ·
@@ -43,6 +43,10 @@ When a download fails, the app writes what to do right under it. Common fixes:
 - **Mac says the app is damaged**: run `xattr -cr "/Applications/Video Downloader.app"` in Terminal, then open it again.
 - **"The site refused the download"**: wait a few minutes. The app updates its download engine every day.
 
+## About
+
+Made by **Tanvir**, a freelance video editor and motion designer from Bangladesh. I built it to make my own editing work easier and share it free with other editors. Follow me on Instagram: [@tanvir_frames.bd](https://www.instagram.com/tanvir_frames.bd/)
+
 ## Please use it fairly
 
 Save videos, photos and music you made, own, or have permission to use. Re-uploading other people's work can get your account a copyright strike. DRM-protected services such as Netflix, Spotify and Apple Music can't be downloaded.
@@ -51,7 +55,7 @@ Save videos, photos and music you made, own, or have permission to use. Re-uploa
 
 ## বাংলা
 
-একটা ফ্রি অ্যাপ, Mac আর Windows-এর জন্য। YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়। ভিডিও এডিটরদের জন্য বানিয়েছে Tanvir।
+একটা ফ্রি অ্যাপ, Mac আর Windows-এর জন্য। YouTube, Instagram, Pinterest, Facebook, TikTok, X, SoundCloud সহ প্রায় ১০০০ সাইট থেকে ভিডিও, ছবি আর গান নামানো যায়। ভিডিও এডিটরদের জন্য বানিয়েছে Tanvir, নিজেও একজন ভিডিও এডিটর। Instagram: [@tanvir_frames.bd](https://www.instagram.com/tanvir_frames.bd/)
 
 **ডাউনলোড:** উপরের **Download for Mac** বা **Download for Windows** লিংকে চাপো।
 

@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Video Downloader by Tanvir</title>
-<meta name="description" content="A free app for Mac and Windows that saves videos, photos and music from YouTube, Instagram, Pinterest, Facebook, TikTok and about a thousand other sites. Made by Tanvir.">
+<meta name="description" content="A free app for video editors on Mac and Windows. Save reference clips, B-roll, music and photos from YouTube, Instagram, Pinterest, TikTok and 1,000+ sites as files Premiere Pro, After Effects and CapCut open without converting. Made by Tanvir, a video editor.">
 <meta name="theme-color" content="#000000">
 <meta property="og:title" content="Video Downloader by Tanvir">
-<meta property="og:description" content="Free Mac and Windows app to save videos, photos and music from YouTube, Instagram, Pinterest, TikTok and 1,000+ sites.">
+<meta property="og:description" content="A free downloader made by a video editor, for video editors. Clips, music and photos from 1,000+ sites, ready for your timeline.">
 <meta property="og:image" content="https://tanvirr0071.github.io/video-downloader/icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%235050ff'/%3E%3Cstop offset='1' stop-color='%230a84ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='26' height='26' rx='7.5' fill='url(%23g)'/%3E%3Cpath d='M13 6.6v8.6m-4-3.6 4 4 4-4M8 19.4h10' fill='none' stroke='%23fff' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
@@ -175,6 +175,15 @@ ol.steps li:last-child{border-bottom:1px solid var(--line)}
 .cmd code{font:500 14px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--white);word-break:break-all}
 .copy{flex:none;height:32px;padding:0 14px;border:0;border-radius:9px;background:var(--white);color:var(--black);font-size:13px;font-weight:600;cursor:pointer}
 @media (max-width:860px){.q{grid-template-columns:1fr}.cmd{max-width:100%}}
+.about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:36px clamp(40px,7vw,120px);align-items:start}
+.bio{padding-top:clamp(22px,2.4vw,30px)}
+.bio p{color:var(--dim);max-width:58ch;margin-top:18px}
+.bio p.big{margin-top:0;color:var(--white);font-size:clamp(22px,2.2vw,30px);line-height:1.25;font-weight:600;font-stretch:110%;letter-spacing:-.01em;max-width:28ch}
+.social{margin-top:30px}
+.btn.ig{background:var(--white);color:var(--black);box-shadow:none}
+.btn.ig small{color:rgba(0,0,0,.55)}
+.btn.ig:hover{background:var(--white);transform:translate3d(0,-1px,0)}
+@media (max-width:860px){.about{grid-template-columns:1fr}}
 .final{text-align:left}
 .final .cta{animation:none}
 .fair{margin-top:26px;font-size:14px;color:var(--faint);max-width:62ch}
@@ -212,6 +221,7 @@ footer b{color:var(--white);font-weight:560}
   <nav>
     <a href="#formats">Formats</a>
     <a href="#sites">Sites</a>
+    <a href="#about">About</a>
     <a href="#setup">Set up</a>
     <a href="#help">Help</a>
     <a class="get" href="#download">Download</a>
@@ -221,12 +231,12 @@ footer b{color:var(--white);font-weight:560}
 <main id="top">
   <section class="hero">
     <h1><span class="ln"><span>Paste a link.</span></span><span class="ln"><span>Keep it.</span></span></h1>
-    <p class="lede">A free app for Mac and Windows. It saves videos, photos and music from YouTube, Instagram, Pinterest, Facebook, TikTok and about a thousand other sites, in files your editor and music player open without converting.</p>
+    <p class="lede">A free app for video editors, on Mac and Windows. Pull reference clips, B-roll, music and photos from YouTube, Instagram, Pinterest, TikTok and about a thousand other sites, as files Premiere Pro, After Effects and CapCut open without converting.</p>
     <div class="cta" data-cta>
       <a class="btn main" data-os="mac" href="https://github.com/tanvirr0071/video-downloader/releases/latest/download/Video-Downloader-by-Tanvir-Mac.zip">Download for Mac<small>Apple Silicon and Intel, 32 MB</small></a>
       <a class="btn" data-os="win" href="https://github.com/tanvirr0071/video-downloader/releases/latest/download/Video-Downloader-by-Tanvir-Windows.zip">Download for Windows<small>Windows 10 and 11, 15 MB</small></a>
     </div>
-    <p class="fine" id="fine">Free, with no account and no ads. Made by <b>Tanvir</b>.</p>
+    <p class="fine" id="fine">Free, with no account and no ads. Made by <a href="#about"><b>Tanvir</b></a>, a video editor.</p>
   </section>
 
   <div class="theatre" aria-hidden="true">
@@ -247,20 +257,34 @@ footer b{color:var(--white);font-weight:560}
   </div>
 
   <section class="block" id="formats">
-    <h2>One place for all of it</h2>
+    <h2>Everything an edit needs</h2>
     <div class="specs">
-      <div class="spec rule"><h3>Editing MP4</h3><div class="num">H.264 video, AAC audio</div><p>Opens in Premiere Pro, After Effects and CapCut with no converting first.</p></div>
-      <div class="spec rule"><h3>Max quality</h3><div class="num">Up to 4K and 8K</div><p>The sharpest version the site has, for when resolution matters more than the codec.</p></div>
-      <div class="spec rule"><h3>Audio</h3><div class="num">FLAC, MP3 320 or original M4A</div><p>Only the sound, with cover art and track names, for music, voiceovers and podcasts.</p></div>
-      <div class="spec rule"><h3>Photos</h3><div class="num">Original resolution</div><p>Instagram posts and carousels, Pinterest pins and boards, X and Reddit images, saved as the files the site keeps.</p></div>
+      <div class="spec rule"><h3>Editing MP4</h3><div class="num">H.264 video, AAC audio</div><p>Drops straight onto a Premiere Pro, After Effects or CapCut timeline. No converting, no Media Encoder detour.</p></div>
+      <div class="spec rule"><h3>Max quality</h3><div class="num">Up to 4K and 8K</div><p>B-roll and references at the sharpest version the site has, for when every pixel counts.</p></div>
+      <div class="spec rule"><h3>Audio</h3><div class="num">FLAC, MP3 320 or original M4A</div><p>Music beds, sound references and voiceovers, with cover art and track names.</p></div>
+      <div class="spec rule"><h3>Photos</h3><div class="num">Original resolution</div><p>Moodboards and style frames: Instagram carousels, Pinterest boards, X and Reddit images at full resolution.</p></div>
       <div class="also rule"><p>Paste any link and it works out whether it is a video, a photo or a song. It also takes <b>several links at once</b>, saves <b>whole playlists and boards</b>, grabs <b>thumbnails</b> and <b>subtitles</b>, and reaches private posts through the browser you are already logged in to.</p></div>
     </div>
   </section>
 
   <section class="block" id="sites">
-    <h2>Works where the videos are</h2>
+    <h2>Works where your references are</h2>
     <div class="sites" id="siteList">
       <span>YouTube</span><span>Instagram</span><span>Facebook</span><span>TikTok</span><span>Pinterest</span><span>X</span><span>Vimeo</span><span>Reddit</span><span>LinkedIn</span><span>SoundCloud</span><span>Bandcamp</span><span>Twitch</span><span>Tumblr</span><span class="more">and about a thousand more</span>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="about">
+      <h2>Made by an editor</h2>
+      <div class="bio rule">
+        <p class="big">I'm Tanvir, a freelance video editor and motion designer from Bangladesh.</p>
+        <p>I cut short-form videos, motion graphics and video ads in Premiere Pro, After Effects and CapCut. A lot of every project went into collecting references, B-roll and music, and every website I tried was slow, full of ads, or gave me files my timeline refused.</p>
+        <p>So I built the tool I wanted for my own work: paste a link, get a file that drops straight into the edit. It made my days easier, so I'm sharing it free with every editor who needs it.</p>
+        <div class="social">
+          <a class="btn ig" href="https://www.instagram.com/tanvir_frames.bd/" target="_blank" rel="noopener">Follow on Instagram<small>@tanvir_frames.bd</small></a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -324,7 +348,7 @@ footer b{color:var(--white);font-weight:560}
 </main>
 
 <footer>
-  <span>Made by <b>Tanvir</b></span>
+  <span>Made by <b>Tanvir</b>, video editor. <a href="https://www.instagram.com/tanvir_frames.bd/" target="_blank" rel="noopener" style="color:var(--white)">Instagram @tanvir_frames.bd</a></span>
   <span>Free and open source. <a href="https://github.com/tanvirr0071/video-downloader" style="color:var(--white)">See the code on GitHub</a>, built on yt-dlp, gallery-dl and FFmpeg.</span>
 </footer>
 <div class="end" aria-hidden="true"></div>
@@ -337,7 +361,7 @@ const ua = navigator.userAgent, isWin = /Windows/i.test(ua), isPhone = /Android|
 
 /* put this computer's download first */
 if (isWin) $$('[data-cta]').forEach(c => { const m = c.querySelector('[data-os=mac]'), w = c.querySelector('[data-os=win]'); m.classList.remove('main'); w.classList.add('main'); c.insertBefore(w, m); });
-if (isPhone) $('#fine').innerHTML = 'This is an app for computers. Open this page on your Mac or Windows PC to download it. Made by <b>Tanvir</b>.';
+if (isPhone) $('#fine').innerHTML = 'This is an app for computers. Open this page on your Mac or Windows PC to download it. Made by <a href="#about"><b>Tanvir</b></a>, a video editor.';
 
 /* copy the Terminal fix */
 document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', async () => {
